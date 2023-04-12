@@ -31,6 +31,7 @@ import java.util.Optional;
 /**
  *
  * @author sotobotero
+ * @arreglando esto
 */
 @Api(tags = "Billing API")
 @RestController
