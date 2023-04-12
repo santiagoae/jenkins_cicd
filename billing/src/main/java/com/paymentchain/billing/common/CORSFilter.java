@@ -42,7 +42,7 @@ public class CORSFilter implements Filter {
         System.out.println("CORSFilter HTTP Request: " + request.getMethod());
         
     
-       //disable cachin
+       //disable cachinn
        response.addHeader("Access-Control-Max-Age", "-1");
        // Authorize (allow) all domains to consume the content
        response.addHeader("Access-Control-Allow-Origin", "*");
